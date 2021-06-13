@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class App {
 
     public static void menu(){
-            System.out.println("Welcom to the app please choose your option \n 1: Add \n Delect");
+            System.out.println("Welcom to the gghvhmvm please choose your option \n 1: Add \n Delect");
     }
     public static void main(String[] args) {
     try {
