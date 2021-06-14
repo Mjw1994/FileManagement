@@ -8,12 +8,12 @@ public class App {
             System.out.println("Welcom to the gghvhmvm please choose your option \n 1: Add \n Delect");
     }
     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        menu();
+        String NameFile = input.nextLine(); 
+      
     try {
 
-        Scanner input = new Scanner(System.in); 
-        menu();
-        
-        String NameFile = input.nextLine();
         //System.out.println("The Director of file is "+NameFile);
         File f = new File (NameFile); 
         for (int i=0; i<f.listFiles().length; i++){
@@ -25,7 +25,7 @@ public class App {
         
     } catch (Exception ex) 
          {
-         System.out.println(ex.getMessage());    
+         System.out.println("The File name "+NameFile+" not Found ");    
          }
     }
     
