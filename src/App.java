@@ -11,7 +11,7 @@ public class App {
         System.out.println("\n**************************************************************************************\n**     Welcome to the File Management System please choose your option:             **\n**        1: Show content of Files Manager                                          **\n**        2. More option                                                            **\n**        3. Exit                                                                   **\n");
     }
     public static void SecondMenu(){
-        System.out.println("\n**     Please choose your option:                                                   **\n**        1: Add new File                                                           **\n**        2. Delete File                                                            **\n**        3. Search                                                                 **\n**        4. Back                                                                   **\n**");
+        System.out.println("\n**       Please choose your option:                                                   **\n**        1: Add new File                                                           **\n**        2. Delete File                                                            **\n**        3. Search                                                                 **\n**        4. Back                                                                   **\n**");
     }
 
     public static void SecondOption(){
